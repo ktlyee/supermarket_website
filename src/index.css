@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navlink-right {
+    @apply p-8 text-base font-normal;
+}
+
+.btn-cart {
+    @apply px-8 py-2 font-normal text-base text-white bg-red-800 rounded;
+}
+
+.btn-cart:hover {
+    @apply bg-red-600;
+}
+
+.btn-cart:focus {
+    @apply bg-red-600;
+}
+
+.active {
+    @apply font-extrabold text-green-700;
+}
+
+.cards-product {
+    @apply flex bg-white py-4 px-4 rounded-2xl;
+}
+
+.img-product {
+    @apply h-28 w-28 bg-gray-50 p-2 rounded-2xl;
+}
+
+.img-product:hover {
+    @apply animate-pulse;
+}
+
+.name-product {
+    @apply font-medium text-2xl;
+}
+
+.btn-price-product {
+    @apply bg-green-200 text-green-700 rounded-xl py-1 w-20 border-2 border-green-700 shadow-md;
+}
+
+.btn-price-product:hover {
+    @apply bg-green-500 text-white;
+}
+
+.btn-price-product:focus {
+    @apply outline-none;
+}
+
+.btn-close {
+    @apply rounded border-2 border-red-700 text-red-700 h-7 w-7 shadow-md ml-40;
+}
+
+.btn-close:hover {
+    @apply bg-red-700 text-white;
+}
